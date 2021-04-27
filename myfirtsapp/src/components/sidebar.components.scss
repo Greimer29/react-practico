@@ -11,6 +11,10 @@
 .sidebar:hover {
     width: 250px;
     transition: linear 100ms;
+    .option-description {
+        display: flex;
+        position: absolute;
+    }
 }
 
 hr {
@@ -42,9 +46,8 @@ hr {
 }
 
 .option-description {
-    transition: linear 5s;
-    margin-left: 20px;
-    width: 150px;
+    display: none;
+    left: 100px;
 }
 
 .option:hover {
@@ -53,12 +56,6 @@ hr {
 }
 
 .link {
-    display: flex;
     justify-content: space-between;
-}
-
-.hide {
-    transition: linear 5s;
-    margin-left: 20px;
-    display: none;
+    display: flex;
 }

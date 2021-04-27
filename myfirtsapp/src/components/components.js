@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import './sidebar.components.css';
+import './sidebar.components.scss';
 
 class Options extends Component {
     render() {
@@ -10,7 +10,7 @@ class Options extends Component {
                     <a href="/tickets" className="link">
                         <div className="option-img text-center">
                         </div>
-                        <div className="option-description hide">
+                        <div className="option-description ms-2">
                             {
                                 this.props.imagen
                             }
@@ -33,9 +33,9 @@ class Sidebar extends Component {
                 </div>
                 <hr />
                 <div className="container">
-                    <Options imagen="Aquí van los tickets" />
-                    <Options imagen="Aqí va la billetera" />
-                    <Options imagen="Aquí va los ajustes" />
+                    <Options imagen="Tickets" />
+                    <Options imagen="Billetera" />
+                    <Options imagen="Ajustes" />
                 </div>
             </div >
         )
