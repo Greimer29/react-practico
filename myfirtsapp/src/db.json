@@ -1,0 +1,13 @@
+{
+    "users": [{
+            "name": "Greimer Abel",
+            "apellido": "Pérez Guzmán",
+            "tickets": 2
+        },
+        {
+            "name": "Kenyer Josue",
+            "apellido": "Pérez Guzmán",
+            "tickets": 1
+        }
+    ]
+}
