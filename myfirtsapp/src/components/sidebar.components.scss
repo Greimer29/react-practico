@@ -11,7 +11,8 @@
 .sidebar:hover {
     width: 250px;
     transition: linear 100ms;
-    .option-description {
+    .option-description,
+    .user-description {
         display: flex;
         position: absolute;
     }
@@ -45,17 +46,23 @@ hr {
     padding: 2px 10px;
 }
 
-.option-description {
+.option-description,
+.user-description {
     display: none;
-    left: 100px;
+    left: 70px;
+    justify-content: center;
+    align-items: center;
 }
 
 .option:hover {
     background-color: rgb(0, 85, 255);
     transition: linear 0.2s;
+    .option-img {
+        background-color: rgb(238, 238, 238);
+    }
 }
 
-.link {
-    justify-content: space-between;
+.link,
+.user {
     display: flex;
 }
