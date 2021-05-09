@@ -1,4 +1,4 @@
-import { users } from '../db.json';
+import { Personas } from '../db.json';
 import React, { Component } from 'react';
 import '../App.css';
 import './sidebar.components.scss';
@@ -25,11 +25,11 @@ class Sidebar extends Component {
     constructor() {
         super();
         this.state = {
-            users
+            Personas
         }
     }
     render() {
-        const user = this.state.users[1]
+        const user = this.state.Personas[1]
         return (
             <div id="sidebar" className="sidebar">
                 <div className="user">
