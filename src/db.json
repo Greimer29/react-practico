@@ -1,13 +1,28 @@
 {
-    "users": [{
+    "Personas": [{
+            "id": 28086003,
             "name": "Greimer Abel",
             "apellido": "Pérez Guzmán",
-            "tickets": 2
+            "tickets": 100,
+            "wallet": "",
+            "pozo": 0,
+            "pools": [],
+            "boleto": ""
         },
         {
+            "id": 28086005,
             "name": "Kenyer Josue",
             "apellido": "Pérez Guzmán",
-            "tickets": 1
+            "tickets": 100,
+            "wallet": "",
+            "pozo": 0,
+            "pools": [],
+            "boleto": ""
         }
-    ]
+    ],
+    "Pool": {
+        "id": 456456,
+        "pozo": 0,
+        "personas": []
+    }
 }
