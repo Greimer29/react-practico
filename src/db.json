@@ -1,8 +1,8 @@
 {
     "Personas": [{
             "id": 28086003,
-            "name": "Greimer Abel",
-            "apellido": "Pérez Guzmán",
+            "name": "Greimer",
+            "apellido": "Pérez",
             "tickets": 100,
             "wallet": "",
             "pozo": 0,
@@ -11,8 +11,8 @@
         },
         {
             "id": 28086005,
-            "name": "Kenyer Josue",
-            "apellido": "Pérez Guzmán",
+            "name": "Kenyer",
+            "apellido": "Pérez",
             "tickets": 100,
             "wallet": "",
             "pozo": 0,
