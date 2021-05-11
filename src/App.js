@@ -5,7 +5,6 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 import InputTicket from './pages/InputTicket';
 import Wallet from './pages/Wallet';
-import Ajustes from './pages/Ajustes';
 
 function App() {
   return (
@@ -29,7 +28,6 @@ function App() {
 
           <Route path="/billetera" exact={true} component={Wallet}/>
           <Route path="/tickets" exact={true}component={InputTicket}/>
-          <Route path="/ajustes" exact={true} component={Ajustes}/>
       </Router>
     </div>
   );
