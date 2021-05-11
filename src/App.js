@@ -5,12 +5,14 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 
 import InputTicket from './pages/InputTicket';
 import Wallet from './pages/Wallet';
+import Pool from "./components/Pool";
 
 function App() {
   return (
     <div className="App" >
       <Router>
         <Sidebar />
+        <Pool/>
           <header className="App-header" >
             <img src={logo}
               className="App-logo"
