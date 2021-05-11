@@ -5,8 +5,8 @@ import './sidebar.components.scss';
 import * as FaIcons from 'react-icons/fa';
 import {NavLink} from 'react-router-dom';
 
-// import {Route} from 'react-router-dom';
-// import Ajustes from '../pages/Ajustes';
+import {Route} from 'react-router-dom';
+import Ajustes from '../pages/Ajustes';
 
 class Sidebar extends Component {
     constructor() {
@@ -66,7 +66,7 @@ class Sidebar extends Component {
                         </div>
                     </div>
                 </div>
-                {/* <Route path="/ajustes" exact={true} component={Ajustes}/> */}
+                <Route path="/ajustes" exact={true} component={Ajustes}/>
             </div>
         )
     }
