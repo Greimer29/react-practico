@@ -5,6 +5,9 @@ import './sidebar.components.scss';
 import * as FaIcons from 'react-icons/fa';
 import {NavLink} from 'react-router-dom';
 
+// import {Route} from 'react-router-dom';
+// import Ajustes from '../pages/Ajustes';
+
 class Sidebar extends Component {
     constructor() {
         super();
@@ -33,7 +36,7 @@ class Sidebar extends Component {
                                 <FaIcons.FaTicketAlt size="1.5rem" className="mt-2"/>
                                 </div>
                                 <div className="option-description">
-                                    <h6>Tickets</h6>
+                                    <h6>Tickets</h6><span className="badge bg-success ms-4">{user.tickets}</span>
                                 </div>
                             </NavLink>
                         </div>
@@ -63,6 +66,7 @@ class Sidebar extends Component {
                         </div>
                     </div>
                 </div>
+                {/* <Route path="/ajustes" exact={true} component={Ajustes}/> */}
             </div>
         )
     }
