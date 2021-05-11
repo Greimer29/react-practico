@@ -1,11 +1,3 @@
-h6 {
-    margin-top: 9px;
-}
-
-h5 {
-    margin-top: 16px;
-}
-
 .sidebar {
     text-align: center;
     position: fixed;
@@ -23,6 +15,8 @@ h5 {
     .user-description {
         display: flex;
         position: absolute;
+        align-items: center;
+        margin-top: 6.5px;
     }
     .link,
     .user {
@@ -79,6 +73,7 @@ hr {
 .link,
 .user {
     justify-content: center;
+    align-items: center;
     display: flex;
     color: black;
     font-weight: bold;
