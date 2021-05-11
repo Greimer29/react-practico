@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import './sidebar.components.scss';
 import * as FaIcons from 'react-icons/fa';
+import {NavLink} from 'react-router-dom';
 
 class Sidebar extends Component {
     constructor() {
@@ -27,38 +28,38 @@ class Sidebar extends Component {
                 <div className="container">
                     <div className="option">
                         <div className="container">
-                            <a href="/tickets" className="link">
+                            <NavLink to="/tickets" exact className="link">
                                 <div className="option-img text-center">
                                 <FaIcons.FaTicketAlt size="1.5rem" className="mt-2"/>
                                 </div>
                                 <div className="option-description">
                                     <h6>Tickets</h6>
                                 </div>
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
                     <div className="option">
                         <div className="container">
-                            <a href="/billetera" className="link">
+                            <NavLink to="/billetera" exact className="link">
                                 <div className="option-img text-center">
                                     <FaIcons.FaWallet size="1.5rem" className="mt-2"/>
                                 </div>
                                 <div className="option-description">
                                     <h6>Billetera</h6>
                                 </div>
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
                     <div className="option">
                         <div className="container">
-                            <a href="/ajustes" className="link">
+                            <NavLink to="/ajustes" exact className="link">
                                 <div className="option-img text-center">
                                     <FaIcons.FaCog size="1.5rem" className="mt-2"/>
                                 </div>
                                 <div className="option-description">
                                     <h6>Ajustes</h6>
                                 </div>
-                            </a>
+                            </NavLink>
                         </div>
                     </div>
                 </div>
