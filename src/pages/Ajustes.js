@@ -1,6 +1,6 @@
 const Ajustes = ()=>{
     return (
-        <h1>Hello papaguera tule vea con la papaya!!</h1>
+        <h1>Hello </h1>
     )
 }
 
