@@ -1,11 +1,15 @@
 import React, {Component} from 'react';
-//;
 import './pool.scss';
 
 class Pool extends Component{
     timer(){
-        let newTickets = window.prompt(`Mano dame los tickets perro`)
-        console.log(newTickets+5)
+        let newTickets = parseInt(window.prompt(`Mano dame los tickets perro`))
+        const stock=100; 
+        if(newTickets<=100){
+            console.log(stock-newTickets)
+        }else{
+            console.log(`No tienes suficientes tickets`)
+        }
     }
     render(){
         return(
@@ -15,12 +19,13 @@ class Pool extends Component{
                         <div className="pool-img">
                         </div>
                         <div className="publicidad">
-                            <p>Venga y gane mucho dinero aportando liquidez en un sorteo sin pérdidas</p>
-                            <h1 className="premio">1000 <span className="dai"></span></h1>
-                        <div className="thing"><p>yo bien</p></div>
-                    </div>
-                    <button className="btn btn-warning w-100" onClick={this.timer}>Participar</button>
-                    <a href="/como" className="link">Cómo Funciona</a>
+                            <p className="my-2">
+                                Participa y compite por un premio de hasta:
+                            </p>
+                            <h1 className="premio my-0">1.000 <span className="dai"></span></h1>
+                        </div>
+                    <button className="btn btn-warning my-2 w-100" onClick={this.timer}>Participar</button>
+                        <a href="/como" className="link my-2">Cómo Funciona</a>
                     <div className="pool-pozo">
                         <div className="container">
                             Personas que entraron

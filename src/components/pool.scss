@@ -2,10 +2,12 @@
     position: absolute;
     width: 20.5rem;
     border-radius: 9px;
-    right: 1rem;
-    top: 6rem;
+    right: 2rem;
+    top: 4.5rem;
     padding: 0.5rem;
     background-image: linear-gradient(rgb(255, 217, 0), rgb(255, 183, 0), rgb(255, 132, 0), rgb(255, 111, 0));
+    transform: translateY(8px);
+    transition: 200ms linear;
     .pool-container {
         padding: 0.5rem;
         text-align: center;
@@ -18,19 +20,19 @@
             width: 7rem;
         }
         .premio {
-            font-weight: 500;
+            font-size: 80px;
         }
     }
 }
 
 .pool:hover {
-    box-shadow: 0px 0px 3px rgb(255, 196, 0);
-    transform: translate(0, -5px);
+    box-shadow: 0px 0px 7px 2px rgb(255, 196, 0);
+    transform: translate(0, -8px);
     transition: 200ms linear;
 }
 
 .dai {
     content: url('./logo-DAI.png');
-    height: 1.7rem;
-    width: 1.7rem;
+    height: 3.7rem;
+    width: 3.7rem;
 }
