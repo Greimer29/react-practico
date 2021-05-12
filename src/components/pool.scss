@@ -1,16 +1,36 @@
 .pool {
-    position: fixed;
-    height: 20rem;
-    width: 15rem;
-    border: 3px rgba(255, 153, 0, 0.419) solid;
+    position: absolute;
+    width: 20.5rem;
     border-radius: 9px;
-    right: 15px;
-    top: 10px;
+    right: 1rem;
+    top: 6rem;
     padding: 0.5rem;
-    background-image: linear-gradient(rgb(237, 154, 0), rgb(255, 225, 0));
+    background-image: linear-gradient(rgb(255, 217, 0), rgb(255, 183, 0), rgb(255, 132, 0), rgb(255, 111, 0));
     .pool-container {
         padding: 0.5rem;
-        color: red;
         text-align: center;
+        .pool-img {
+            margin: 0 auto;
+            padding: 0;
+            content: url("./logo-DAI.png");
+            background-size: cover;
+            height: 7rem;
+            width: 7rem;
+        }
+        .premio {
+            font-weight: 500;
+        }
     }
+}
+
+.pool:hover {
+    box-shadow: 0px 0px 3px rgb(255, 196, 0);
+    transform: translate(0, -5px);
+    transition: 200ms linear;
+}
+
+.dai {
+    content: url('./logo-DAI.png');
+    height: 1.7rem;
+    width: 1.7rem;
 }
