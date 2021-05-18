@@ -9,11 +9,12 @@ import Pool from "./components/Pool";
 
 function App() {
   return (
-    <div className="App" >
       <Router>
-        <Sidebar />
+          <Sidebar />
         <Pool/>
           <header className="App-header" >
+          <Route path="/billetera" exact={true} component={Wallet}/>
+          <Route path="/tickets" exact={true}component={InputTicket}/>
             <img src={logo}
               className="App-logo"
               alt="logo" />
@@ -27,11 +28,7 @@ function App() {
               Learn React 
             </a>
           </header>
-
-          <Route path="/billetera" exact={true} component={Wallet}/>
-          <Route path="/tickets" exact={true}component={InputTicket}/>
       </Router>
-    </div>
   );
 }
 
