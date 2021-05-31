@@ -18,8 +18,8 @@ class nose extends Component{
     }
     render(){
         return (
-        <div className="col-md-5">
-        <div className="card m-3">
+        <div className="col-md-5 container">
+        <div className="card">
             <div className="card-header"><h3>Ingrese nro de Billetera <span className="badge badge-pill badge-danger bg-danger">{this.state.tickets}</span></h3></div>
                 <form className="card-body" onSubmit={this.handleSubmit}>
                     <div className="form-group">
